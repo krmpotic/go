@@ -19,7 +19,6 @@ import (
 var debug = flag.Bool("debug", false, "write .src files containing formatting input; for debugging")
 
 // array1 generates an array literal with n elements of the form:
-//
 // var _ = [...]byte{
 //
 //	// 0
